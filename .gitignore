@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+sdist/
+*.egg-info/
+*.deb
+*.rpm
+*exe
+
+# Environments
+.env
+venv/
+env/
+
+# PyInstaller
+#  Often these are created inadvertently by developers
+#  running tests from a GUI.
+__pycache__
+dist/
+build/
+
+# Log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo

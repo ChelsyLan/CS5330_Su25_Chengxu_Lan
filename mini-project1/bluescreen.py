@@ -7,7 +7,7 @@ pixels of a certain color intensity in a particular channel
 (here, we use blue) with the pixels from another image.
 """
 
-from module1.simpleimage import SimpleImage
+from simpleimage import SimpleImage
 
 
 INTENSITY_THRESHOLD = 1.1
@@ -50,13 +50,13 @@ def main():
     You should store the return value (image) and then
     call .show() to visualize the output of your program.
     """
-    original_stop = SimpleImage('../images/stop.png')
+    original_stop = SimpleImage('stop.png')
     # original_stop.show()
 
-    original_leaves = SimpleImage('../images/leaves.png')
+    original_leaves = SimpleImage('leaves.png')
     # original_leaves.show()
 
-    stop_leaves_replaced = bluescreen('../images/stop.png', '../images/leaves.png')
+    stop_leaves_replaced = bluescreen('stop.png', 'leaves.png')
     stop_leaves_replaced.show()
 
 
